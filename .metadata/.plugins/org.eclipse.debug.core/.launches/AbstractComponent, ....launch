@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="org.testng.eclipse.launchconfig">
+    <stringAttribute key="org.eclipse.jdt.launching.CLASSPATH_PROVIDER" value="org.eclipse.m2e.launchconfig.classpathProvider"/>
+    <stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="org.testng.remote.RemoteTestNG"/>
+    <stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="SeleniumFrameWorkDesignByAvi"/>
+    <stringAttribute key="org.eclipse.jdt.launching.SOURCE_PATH_PROVIDER" value="org.eclipse.m2e.launchconfig.sourcepathProvider"/>
+    <mapAttribute key="org.testng.eclipse.ALL_CLASS_METHODS">
+        <mapEntry key="StandAloneTest" value="main"/>
+        <mapEntry key="avi.AbstractComponents.AbstractComponent" value="AbstractComponent;goToOrdersPage;waitForElementToAppear;waitForElementToDisappear;waitForWebElementToAppear;goToCartPage"/>
+        <mapEntry key="avi.TestComponents.BaseTest" value="initializeDriver;getScreenshot;tearDown;lunchApplication;getJsonDataToMap"/>
+        <mapEntry key="avi.TestComponents.Listeners" value="onTestFailedButWithinSuccessPercentage;onTestSuccess;onTestStart;onTestFailure;onStart;onFinish;onTestSkipped"/>
+        <mapEntry key="avi.data.DataReader" value="getJsonDataToMap"/>
+        <mapEntry key="avi.pageobjects.CartPage" value="goToCheckout;VerifyProductDisplay;CartPage"/>
+        <mapEntry key="avi.pageobjects.CheckoutPage" value="CheckoutPage;selectCountry;submitOrder"/>
+        <mapEntry key="avi.pageobjects.ConfirmationPage" value="ConfirmationPage;getConfirmationMessage"/>
+        <mapEntry key="avi.pageobjects.LandingPage" value="goTo;geterrorMessage;LandingPage;loginApplication"/>
+        <mapEntry key="avi.pageobjects.OrderPage" value="VerifyOrderDisplay;OrderPage"/>
+        <mapEntry key="avi.pageobjects.ProductCatalogue" value="getProductByName;addProductToCart;ProductCatalogue;getProductList"/>
+        <mapEntry key="avi.resources.ExtentReporterNG" value="getReportObject"/>
+        <mapEntry key="avi.tests.ErrorValidationTest" value="ProductErrorValidation;LoginErrorValidation"/>
+        <mapEntry key="avi.tests.StandAloneTest" value="main"/>
+        <mapEntry key="avi.tests.SubmitOrderTest" value="getData;submitOrder;OrderHistoryTest"/>
+    </mapAttribute>
+    <listAttribute key="org.testng.eclipse.CLASS_TEST_LIST">
+        <listEntry value="avi.TestComponents.Listeners"/>
+        <listEntry value="avi.tests.ErrorValidationTest"/>
+        <listEntry value="avi.data.DataReader"/>
+        <listEntry value="avi.TestComponents.BaseTest"/>
+        <listEntry value="avi.pageobjects.LandingPage"/>
+        <listEntry value="avi.tests.StandAloneTest"/>
+        <listEntry value="avi.pageobjects.CartPage"/>
+        <listEntry value="avi.pageobjects.ProductCatalogue"/>
+        <listEntry value="avi.pageobjects.OrderPage"/>
+        <listEntry value="avi.tests.SubmitOrderTest"/>
+        <listEntry value="avi.pageobjects.ConfirmationPage"/>
+        <listEntry value="avi.AbstractComponents.AbstractComponent"/>
+        <listEntry value="avi.pageobjects.CheckoutPage"/>
+        <listEntry value="StandAloneTest"/>
+        <listEntry value="avi.resources.ExtentReporterNG"/>
+    </listAttribute>
+    <listAttribute key="org.testng.eclipse.METHOD_TEST_LIST"/>
+    <listAttribute key="org.testng.eclipse.PACKAGE_TEST_LIST"/>
+    <stringAttribute key="org.testng.eclipse.PRE_DEFINED_LISTENERS" value=""/>
+    <intAttribute key="org.testng.eclipse.TYPE" value="1"/>
+</launchConfiguration>

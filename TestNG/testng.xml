@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Loan Department" parallel="tests" thread-count="6">
+	<listeners>
+		<listener class-name="test.Listeners"></listener>
+	</listeners>
+  <test name="Personal Loan">
+	  <parameter name="URL" value="personalloan.com"></parameter>
+	  <parameter name="APIKeys/username" value="1234"></parameter>
+    <classes>
+      <class name="test.day1">
+        <methods>
+          <exclude name="Demo"/>
+        </methods>
+      </class>
+      <class name="test.day2">
+        <!-- You can exclude methods from this class as well if needed -->
+      </class>
+      <class name="test.day4">
+        <!-- You can exclude methods from this class as well if needed -->
+      </class>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test name="Car Loan">
+	  <parameter name="URL" value="carloan.com"></parameter>
+	  <parameter name="APIKeys/username" value="1234"></parameter>
+    <classes>
+      <class name="test.day3">
+        <methods>
+          <exclude name="API.*"/>
+        </methods>
+      </class>
+    </classes>
+  </test> 
+</suite> <!-- Suite -->

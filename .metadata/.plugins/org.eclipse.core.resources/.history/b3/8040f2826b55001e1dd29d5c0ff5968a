@@ -1,0 +1,5 @@
+package org.avi.utils;
+
+public class AppiumUtils {
+
+}

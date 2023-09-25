@@ -1,0 +1,11 @@
+package org.avi.utils;
+
+public class AppiumUtils extends AndroidActions{
+	
+	public Double getFormattedAmount(String amount) {
+
+		Double price = Double.parseDouble(amount.substring(1));
+		return price;
+
+	}
+}

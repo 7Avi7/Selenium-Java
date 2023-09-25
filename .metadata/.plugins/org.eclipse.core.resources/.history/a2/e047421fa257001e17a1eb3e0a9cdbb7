@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	
+	<listeners>
+		<listener class-name="avi.ExtentReport.Listeners"></listener>
+	</listeners>
+	
+  <test thread-count="5" name="All Test">
+    <classes>
+      <class name="avi.MisceallanousAppiumActions"/>
+      <class name="avi.ScrollDemo"/>
+      <class name="avi.AppiumBasics"/>
+      <class name="avi.BaseTest2"/>
+      <class name="avi.e_Commerce_tc_1"/>
+      <class name="avi.LongPress"/>
+      <class name="avi.DragDropDemo"/>
+      <class name="avi.WifiSettingsName"/>
+      <class name="avi.SwipeDemo"/>
+      <class name="avi.e_Commerce_tc_3"/>
+      <class name="avi.BaseTest"/>
+      <class name="avi.e_Commerce_tc_2"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test thread-count="5" name="Test MisceallanousAppiumActions">
+    <classes>
+      <class name="avi.MisceallanousAppiumActions"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+   <test thread-count="5" name="All Test">
+    <classes>
+      <class name="avi.ScrollDemo"/>
+      <class name="avi.ScrollDemo"/>
+      <class name="avi.AppiumBasics"/>
+      <class name="avi.BaseTest2"/>
+      <class name="avi.e_Commerce_tc_1"/>
+      <class name="avi.LongPress"/>
+      <class name="avi.DragDropDemo"/>
+      <class name="avi.WifiSettingsName"/>
+      <class name="avi.SwipeDemo"/>
+      <class name="avi.e_Commerce_tc_3"/>
+      <class name="avi.BaseTest"/>
+      <class name="avi.e_Commerce_tc_2"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  
+</suite> <!-- Suite -->

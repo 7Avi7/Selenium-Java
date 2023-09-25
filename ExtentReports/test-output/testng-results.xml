@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-09-09T19:20:54 BDT" name="Default suite" finished-at="2023-09-09T19:20:58 BDT" duration-ms="4039">
+    <groups>
+    </groups>
+    <test started-at="2023-09-09T19:20:54 BDT" name="Default test" finished-at="2023-09-09T19:20:58 BDT" duration-ms="4039">
+      <class name="avi.ExtentReports.ExtentReportDemo">
+        <test-method is-config="true" signature="config()[pri:0, instance:avi.ExtentReports.ExtentReportDemo@54c5a2ff]" started-at="2023-09-09T19:20:54 BDT" name="config" finished-at="2023-09-09T19:20:54 BDT" duration-ms="177" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- config -->
+        <test-method signature="initialDemo()[pri:0, instance:avi.ExtentReports.ExtentReportDemo@54c5a2ff]" started-at="2023-09-09T19:20:54 BDT" name="initialDemo" finished-at="2023-09-09T19:20:58 BDT" duration-ms="3839" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialDemo -->
+      </class> <!-- avi.ExtentReports.ExtentReportDemo -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

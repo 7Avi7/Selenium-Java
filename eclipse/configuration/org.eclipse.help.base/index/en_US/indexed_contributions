@@ -1,0 +1,21 @@
+#This is a generated file; do not edit.
+#Mon Sep 18 18:40:21 BDT 2023
+org.eclipse.mylyn.wikitext.help.ui=org.eclipse.mylyn.wikitext.help.ui\n3.0.46.202301111837
+org.eclipse.help=org.eclipse.help\n3.10.0.v20230317-0802
+org.eclipse.oomph.p2.doc=org.eclipse.oomph.p2.doc\n1.13.0.v20220421-1218
+org.eclipse.m2e.core.ui=org.eclipse.m2e.core.ui\n2.0.6.20230822-1606
+org.eclipse.ui.intro=org.eclipse.ui.intro\n3.7.0.v20230503-0628
+org.eclipse.mylyn.help.ui=org.eclipse.mylyn.help.ui\n3.26.1.v20230604-1755
+org.eclipse.epp.mpc.help.ui=org.eclipse.epp.mpc.help.ui\n1.10.1.v20221110-1841
+org.eclipse.help.base=org.eclipse.help.base\n4.4.0.v20230605-0440
+org.eclipse.jdt=org.eclipse.jdt\n3.19.100.v20230605-0440
+org.eclipse.epp.mpc.ui=org.eclipse.epp.mpc.ui\n1.10.1.v20221110-1841
+org.eclipse.mylyn.github.doc=org.eclipse.mylyn.github.doc\n6.2.1.v20230523-1926
+org.eclipse.oomph.setup.doc=org.eclipse.oomph.setup.doc\n1.13.0.v20220520-0625
+org.eclipse.platform.doc.user=org.eclipse.platform.doc.user\n4.28.0.v20230601-1614
+org.eclipse.ui.cheatsheets=org.eclipse.ui.cheatsheets\n3.8.0.v20230317-0802
+org.eclipse.eclemma.doc=org.eclipse.eclemma.doc\n3.1.7.202306070845
+org.eclipse.platform=org.eclipse.platform\n4.28.0.v20230605-0440
+org.eclipse.egit.doc=org.eclipse.egit.doc\n6.6.0.202305301015-r
+org.eclipse.jdt.doc.user=org.eclipse.jdt.doc.user\n3.15.1800.v20230601-1614
+org.eclipse.ui.intro.universal=org.eclipse.ui.intro.universal\n3.5.0.v20230317-0802
